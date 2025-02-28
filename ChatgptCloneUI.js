@@ -14,7 +14,7 @@ export default function ChatUI() {
     setInput("");
 
     setTimeout(() => {
-      setMessages((prev) => prev.slice(0, -1).concat({ text: "Hello! How can I help?", sender: "ai" }));
+      setMessages((prev) => prev.slice(0, -1).concat({ text: "Hello! How can I help?", sender: "Ai" }));
     }, 1000);
   };
 
