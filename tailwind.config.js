@@ -6,6 +6,11 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        border: 'rgb(55 65 81)', // gray-700
+        background: 'rgb(17 24 39)', // gray-900
+        foreground: 'rgb(255 255 255)', // white
+      },
       animation: {
         'pulse-slow': 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
         'fade-in': 'fadeIn 0.3s ease-in-out',
